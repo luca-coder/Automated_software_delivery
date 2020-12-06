@@ -17,6 +17,7 @@ public class CaricatoreImmagini {
      * @return un bufferedImage che descrive l'immagine da visualizzare con un buffer
      *
      */
+
     public BufferedImage caricaImmagine(String posizione){
         try {
             image = ImageIO.read(getClass().getResource(posizione));
