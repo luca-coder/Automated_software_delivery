@@ -20,7 +20,7 @@ jobs:
         with:
           java-version: 1.8  
       - name: Start Spotbugs
-        run: mvn spotbugs:check
+        run: mvn spotbugs:gui
   build:
 
     runs-on: ubuntu-latest
